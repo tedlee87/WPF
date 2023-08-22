@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolderModel", "FolderUI\Mod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModel", "FolderUI\ViewModel\ViewModel.csproj", "{AAC53E2B-99D8-4E84-BDF9-DEA80EAA4187}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WiredBrainCoffee", "WiredBrainCoffee", "{FE2C0F13-68DD-4EBD-B2C8-0656037A6F32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomersApp", "WiredBrainCoffee\CustomersApp\CustomersApp.csproj", "{1415268A-420E-4519-891E-C89D9CBAD45E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{AAC53E2B-99D8-4E84-BDF9-DEA80EAA4187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC53E2B-99D8-4E84-BDF9-DEA80EAA4187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC53E2B-99D8-4E84-BDF9-DEA80EAA4187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1415268A-420E-4519-891E-C89D9CBAD45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1415268A-420E-4519-891E-C89D9CBAD45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1415268A-420E-4519-891E-C89D9CBAD45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1415268A-420E-4519-891E-C89D9CBAD45E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{D7E93291-1F74-4A87-9F79-A57DF4E25934} = {070C61DC-2025-4438-8FF7-1E0C43FD6B69}
 		{D37C1905-6D0D-44A3-BDC6-76AD565D0ECD} = {070C61DC-2025-4438-8FF7-1E0C43FD6B69}
 		{AAC53E2B-99D8-4E84-BDF9-DEA80EAA4187} = {070C61DC-2025-4438-8FF7-1E0C43FD6B69}
+		{1415268A-420E-4519-891E-C89D9CBAD45E} = {FE2C0F13-68DD-4EBD-B2C8-0656037A6F32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9ABEFA8A-1878-402E-A0D5-A7EC4730540E}
