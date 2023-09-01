@@ -45,7 +45,7 @@ namespace CustomersApp.ViewModel
             }
         }
 
-        protected void ClearErrors(string propertyName)
+        protected void ClearErrors([CallerMemberName] string? propertyName = null)
         {
             if (propertyName is null)
             {

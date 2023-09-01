@@ -21,11 +21,11 @@ namespace CustomersApp.ViewModel
                 OnPropertyChanged();
                 if(string.IsNullOrEmpty(_model.FirstName))
                 {
-                    AddErrors("FirstName is Required", nameof(FirstName));
+                    AddErrors("FirstName is Required");
                 }
                 else
                 {
-                    ClearErrors(nameof(FirstName));
+                    ClearErrors();
                 }
             }
         }
